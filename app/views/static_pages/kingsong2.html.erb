@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="home">Home</a></li>
+      <li><a href="kingsong1">kingsong1</a></li>
+        <li class="active"><a href="kingsong2">kingsong2</a></li>
+        <li><a href="kingsong3">kingsong3</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="http://f.ptcdn.info/2g/324/000/000/X13096727-0.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>ใกล้รุ่ง (Near Dawn)</h3>
+            <p>บทเพลงพระราชนิพนธ์</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="https://i.ytimg.com/vi/GUHjBGHllGk/maxresdefault.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>ใกล้รุ่ง (Near Dawn)</h3>
+            <p>บทเพลงพระราชนิพนธ์</p>
+          </div>      
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+   
+  <div class="well">
+ <iframe src="https://www.olozmp3.net/embed/17cu3L3B" width="100%" height="280" scrolling="no" style="border:0"></iframe>
+  </div>
+  </div>
+</div>
+<hr>
+
+    <div class="well">
+<h1>ชื่อเพลง</h1>
+      <p>ใกล้รุ่ง (Near Dawn)</p>
+    </div>
+</div>
+
+<div class="container text-center">    
+  <h1>เนื้อเพลง</h1>
+  <br>
+  <div class="row">
+  
+    <div class="col-sm-12">
+      <div class="well">
+       <p>ได้ยินเสียงแว่วดังแผ่วมาแต่ไกลไกล
+ชุ่มชื่นฤทัยหวานใดจะปาน
+ฟังเสียงบรรเลงกับเพลงประสาน
+จากทิพย์วิมานประทานกล่อมใจ
+ใกล้ยามเมื่อแสงทองส่อง	
+ฉันคอยมองจ้องฟ้าเรืองรำไร
+ลมโบกโบยมาหนาวใจ
+รอช้าเพียงไรตะวันจะมา
+เพลิดเพลินฤทัยฟังไก่ประสานเสียงกัน
+ดอกมะลิวัลย์อวลกลิ่นระคนมณฑา
+โอ้ในยามนี้เพลินหนักหนาแสงทองนวลผ่องนภา
+แสนเพลินอุราสำราญ
+หมู่มวลวิหคบินผกมาแต่รังนอน
+เฝ้าเชยชิดช้อนลิ้มชมบัวบาน
+ยินเสียงบรรเลงดังเพลงขับขาน
+สอดคล้องกังวานซาบซ่านจับใจ</p>
+      </div>
+      
+    </div>
+<h1>ประวัติ</h1>
+    <div class="col-sm-12">
+      <div class="well">
+       <p>เพลงพระราชนิพนธ์ลำดับที่ ๔ ทรงพระราชนิพนธ์ใน พ.ศ. ๒๔๘๙ ขณะทรงเป็นสมเด็กพระอนุชาธิราช ทรงพระกรุณาโปรดเกล้าฯ ให้ศาสตราจารย์ ดร.ประเสริฐ ณ นคร ประพันธ์คำร้องภาษาไทย โดยมีพระเจ้าวรวงศ์เธอพระองค์เจ้าจักรพันธ์เพ็ญศิริ ทรงช่วย ส่วนคำร้องภาษาอังกฤษ ทรงพระกรุณาโปรดเกล้าฯ ให้ท่านผู้หญิงนพคุณ ทองใหญ่ ณ อยุธยา ประพันธ์ขึ้น และพระเจ้าวรวงศ์เธอ พระองค์เจ้าจักรพันธ์เพ็ญศิริ ทรงช่วยแก้ไข แล้วพระราชทานให้วงดนตรีสุนทราภรณ์นำออกบรรเลงครั้งแรกทางสถานีวิทยุกระจายเสียงกรมโฆษณาการ (กรมประชาสัมพันธ์ปัจจุบัน) เมื่อเดือนกรกฎาคม พ.ศ. ๒๔๘๙
+</p>
+      </div>
+      
+    </div>
+    
+  </div>
+  <hr>
+</div>
+
+<div class="container text-center">    
+
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>ขอเป็นข้ารองพระบาททุกชาติไป</p>
+</footer>
+
+</body>
+</html>
